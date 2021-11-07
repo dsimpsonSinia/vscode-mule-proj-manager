@@ -1,0 +1,48 @@
+{
+    "archetypes": [
+        {
+            "label": "Mule Application",
+            "description": "Creates a Mule 4 Application Project",
+            "archetypeGroupId": "com.aeontronix.enhancedmule",
+            "archetypeArtifactId": "enhanced-mule-archetype",
+            "inputFields": {
+                "groupId": {
+                    "defaultValue": "org.mycompany.app",
+                    "description": "The groupId for your organization."
+                },
+                "artifactId": {
+                    "defaultValue": "my-app",
+                    "description": "The artifactId for this project."
+                },
+                "version": {
+                    "defaultValue": "1.0-SNAPSHOT",
+                    "description": "The initial version of this project."
+                },
+                "orgId": {
+                    "defaultValue": "orgId",
+                    "description": "The anypoint org id for your organization/business group."
+                },
+                "package": {
+                    "defaultValue": "org.mycompany",
+                    "description": "Required by maven archetype but not used."
+                },
+                "rest": {
+                    "defaultValue": "yes",
+                    "description": "Whether to include dependencies for HTTP communication. Should be 'yes' or 'no'."
+                },
+                "apiSpecId": {
+                    "defaultValue": "api",
+                    "description": "The name of the raml api spec to create."
+                },
+                "apiSpecInProject": {
+                    "defaultValue": "true",
+                    "description": "Whether to include a raml api spec in the project."
+                },
+                "jsonlogging": {
+                    "defaultValue": "true",
+                    "description": "Doesn't seem to work for now. Supposed to add a log4j2 configuration to print json logs."
+                }
+            }
+        }
+    ]
+}
