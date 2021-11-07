@@ -2,7 +2,7 @@
 	"name": "mule-proj-manager",
 	"displayName": "Mulesoft Project Manager",
 	"description": "A set of tools for creating and managing a mule 4 project.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "sinia",
 	"license": "Apache-2.0",
 	"repository": {
@@ -19,30 +19,15 @@
 		"onCommand:mule.projManager.createProj"
 	],
 	"main": "./out/extension.js",
+	"extensionDependencies":[
+		"sinia.mule-exchange-tools"
+	],
 	"contributes": {
-		"viewsContainers": {
-			"activitybar": [
-				{
-					"id": "mulesoft-tools",
-					"title": "Mulesoft Tools",
-					"icon": "media/dep.svg"
-				}
-			]
-		},
-		"views": {
-			"mulesoft-tools": [
-				{
-					"id": "nodeDependencies",
-					"name": "Node Dependencies",
-					"icon": "media/dep.svg"
-				}
-			]
-		},
 		"menus": {
 			"view/title": [
 				{
 					"command": "mule.projManager.createProj",
-					"when": "view == nodeDependencies",
+					"when": "view == importedConnectors",
 					"group": "navigation"
 				}
 			]
