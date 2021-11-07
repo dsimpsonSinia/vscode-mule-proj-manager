@@ -1,14 +1,13 @@
 {
-	"name": "quickinput-sample",
-	"displayName": "QuickInput Sample",
-	"description": "Samples for VS Code's QuickInput API",
+	"name": "mule-proj-manager",
+	"displayName": "Mulesoft Project Manager",
+	"description": "A set of tools for creating and managing a mule 4 project.",
 	"version": "0.0.1",
-	"publisher": "vscode-samples",
-	"private": true,
-	"license": "MIT",
+	"publisher": "sinia",
+	"license": "Apache-2.0",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-extension-samples"
+		"url": "https://github.com/dsimpsonSinia/vscode-mule-proj-manager"
 	},
 	"engines": {
 		"vscode": "^1.32.0"
