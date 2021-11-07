@@ -2,7 +2,7 @@
 	"name": "mule-proj-manager",
 	"displayName": "Mulesoft Project Manager",
 	"description": "A set of tools for creating and managing a mule 4 project.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "sinia",
 	"license": "Apache-2.0",
 	"repository": {
